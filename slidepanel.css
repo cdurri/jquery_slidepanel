@@ -1,0 +1,28 @@
+ body {
+  width: 500px;
+  margin: 0 auto;
+}
+#content {
+  background-color: #EDA4C8;
+  height: 200px;
+  display: none;
+}
+#panel {
+  margin: 0;
+  border-top: 2px solid #5C0B33;
+}
+.message {
+  background: #AB1560 url(images/down.png) no-repeat 110px 10px;
+  width: 140px;
+  height: 50px;
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.changeImage {
+  background: #AB1560 url(images/close.png) no-repeat 110px 10px;
+}
